@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+a {
+    font-family: 'Rubik Iso';
+    color: royalblue;
+    text-decoration: none;
+}
+
+.form {
+    display: 'flex';
+    flex-direction: 'row';
+    background-color: 'red';
+}
+

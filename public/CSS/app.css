@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Righteous");
+
+
+body {
+  /* background: url(https://images.clipartlogo.com/files/istock/previews/8741/87414357-apple-seamless-pastel-colors-pattern-fruits-texture-background.jpg); */
+  margin: 20px;
+  font-family: "Comfortaa", cursive;
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+  /* background: #FF731D; */
+  /* margin:0;
+  margin-bottom: .5em;
+  padding: 1em;
+  color: '#fff' */
+  /* text-align: center; */
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.5em;
+  background: rgba(193, 235, 187, 0.9);
+  padding: 5px;
+}
+
+a:hover {
+  color: ghostwhite;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  color: mediumseagreen;
+}
+
+input[type="text"] {
+  padding: 0.3em;
+}
+
+input[type="submit"] {
+  padding: 0.3em;
+  color: orange;
+  background: mediumseagreen;
+  font-size: 1em;
+  border-radius: 10%;
+}
+
+.margin-section {
+  margin: 200px 0;
+}
+
+.card:hover {
+  box-shadow: 8px 10px 10px 10px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
