@@ -5,6 +5,7 @@ const methodOverride = require('method-override')
 const session = require("express-session");
 const MongoStore = require("connect-mongo");
 require('dotenv').config()
+const serverless = require("serverless-http");
 
 
 const app = express()
@@ -21,6 +22,7 @@ app.use(session({
   saveUninitialized: true,
   resave: false
 }))
+app.use(`/.netlify/functions/api`, router);
 
 // App settings
 app.set("view engine", "jsx");
@@ -48,3 +50,4 @@ app.listen(PORT, () => {
         console.log("connected to mongo");
       });
 })
+serverless(app)
